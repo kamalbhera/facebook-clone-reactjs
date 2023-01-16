@@ -1,0 +1,41 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    height: 5vh;
+    width: 100%
+}
+
+.item > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.item > div > h3 {
+    margin-left: 20px;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item > div > h4 {
+    margin-left: 20px;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item > div > h5 {
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.item:hover {
+    transform: scale(1.07);
+}
+
+.icon-wrapper {
+    border-radius: 999px;
+    background-color: #eff2f5;
+    align-items: center;
+    margin-right: 13px;
+}

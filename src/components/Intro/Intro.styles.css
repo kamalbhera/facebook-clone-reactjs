@@ -1,0 +1,77 @@
+.intro {
+    background-color: white;
+    box-shadow: 3px 3px 2px rgb(204, 203, 203);
+    border-radius: 10px;
+    border: 1px solid rgba(220, 220, 220, 0.801);
+    box-sizing: content-box;
+    position: relative;
+    width: auto;
+    overflow: hidden;
+}
+
+.heading {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+.intro-params {
+    display: 'flex';
+    flex-direction: column;
+    justify-content: center;
+}
+
+.params {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.left_content_params {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right_content_params {
+    align-items: center;
+}
+
+.right_content_params--hidden:hover {
+    cursor: initial;
+}
+
+.intro-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.intro_button {
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #d8d8d8f5;
+    border-radius: 7px;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.phone_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

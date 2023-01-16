@@ -1,0 +1,57 @@
+.Floating{
+    width: 100%;
+    flex: 1;
+}
+
+.floating_profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.desc  {
+    display:flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(228, 225, 225);
+}
+
+.content {
+    margin-top: 8px;
+    padding: 10px 40px 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonicon{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.buttonicon:hover {
+    cursor: pointer;
+    background-color: rgb(228, 225, 225);
+}

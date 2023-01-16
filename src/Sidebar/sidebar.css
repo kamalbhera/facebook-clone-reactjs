@@ -1,0 +1,6 @@
+.sidebar {
+    flex: 0.33;
+    background-color: #eff2f5;
+    position: relative;
+    width: 20vw;
+}

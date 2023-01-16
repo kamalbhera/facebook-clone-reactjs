@@ -1,0 +1,8 @@
+.widgets {
+    background-color: #f1f2f5;
+    flex: 0.25;
+}
+
+.iframe::-webkit-scrollbar {
+    display: none;
+}
